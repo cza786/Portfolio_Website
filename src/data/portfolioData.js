@@ -1,13 +1,15 @@
+import profileImg from '../assets/DP.jpg';
+
 export const personalInfo = {
     name: "Chand Zaib",
-    role: "Software Engineer | Full-Stack Developer | Data Science Enthusiast",
+    role: "Bachlor's in Computer Science | Full-Stack Developer | Data Science Enthusiast",
     degree: "BS Computer Science (2022–2026)",
     location: "Rawalpindi, Pakistan",
-    email: "your.email@example.com", // Update with your email
+    email: "chandcza786@gmail.com", // Update with your email
     github: "https://github.com/yourusername", // Update with your GitHub
     linkedin: "https://www.linkedin.com/in/yourusername", // Update with your LinkedIn
     cvLink: "/path-to-cv.pdf", // Update with your CV path
-    profileImage: "/profile.jpg", // Add your profile image to public folder
+    profileImage: profileImg,
     bio: "Passionate Full-Stack Developer with expertise in building scalable web and mobile applications. Currently pursuing BS in Computer Science with a focus on software engineering, security, and machine learning. Freelancing since 2022, delivering real-world solutions to clients.",
     tagline: "Building innovative solutions with modern technologies"
 };
