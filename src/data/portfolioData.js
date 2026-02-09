@@ -1,14 +1,16 @@
 import profileImg from '../assets/DP.jpg';
-
+import cv from '../assets/cv.pdf';
+import sc from '../assets/download.jfif';
+import CE from '../assets/Currency_Exchanger.png'
 export const personalInfo = {
     name: "Chand Zaib",
     role: "Bachlor's in Computer Science | Full-Stack Developer | Data Science Enthusiast",
     degree: "BS Computer Science (2022–2026)",
     location: "Rawalpindi, Pakistan",
     email: "chandcza786@gmail.com", // Update with your email
-    github: "https://github.com/yourusername", // Update with your GitHub
-    linkedin: "https://www.linkedin.com/in/yourusername", // Update with your LinkedIn
-    cvLink: "/path-to-cv.pdf", // Update with your CV path
+    github: "https://github.com/cza786", // Update with your GitHub
+    linkedin: "https://www.linkedin.com/in/chand-zaib-a1570737b/?skipRedirect=true", // Update with your LinkedIn
+    cvLink: cv, // Update with your CV path
     profileImage: profileImg,
     bio: "Passionate Full-Stack Developer with expertise in building scalable web and mobile applications. Currently pursuing BS in Computer Science with a focus on software engineering, security, and machine learning. Freelancing since 2022, delivering real-world solutions to clients.",
     tagline: "Building innovative solutions with modern technologies"
@@ -72,14 +74,14 @@ export const projects = [
         description: "A comprehensive secure gallery application featuring advanced encryption, biometric authentication, and intelligent image management using machine learning.",
         technologies: ["FastAPI", "React", "Machine Learning", "Cryptography", "Python"],
         features: [
-            "AES-256 encryption for secure image storage",
+            "Encryption for secure image storage",
             "Face recognition authentication",
-            "Voice recognition security",
+            "Upload encrypted & decrypted images at <span>Supabase</span> database Using SHA-256 algorithm",
             "Duplicate image detection using ML",
-            "Real-time image processing"
+            "Vault Encryption for secure image storage"
         ],
-        thumbnail: "/projects/secure-gallery.jpg", // Add project images to public/projects/
-        githubLink: "https://github.com/yourusername/secure-gallery",
+        thumbnail: sc, // Add project images to public/projects/
+        githubLink: "https://github.com/cza786/Project_FYP-SECURE_Gallery-",
         liveLink: "",
         mediaGallery: [
             { type: "image", url: "/media/secure-gallery-1.jpg", caption: "Dashboard" },
@@ -90,9 +92,9 @@ export const projects = [
     // Add more projects here following the same structure
     {
         id: 2,
-        title: "E-Commerce Platform",
+        title: "currency Exchanger",
         category: "Web Development",
-        description: "Full-featured e-commerce platform with payment integration and admin dashboard.",
+        description: "A currency exchanger website that allows users to exchange currencies.",
         technologies: ["React", "Node.js", "MongoDB", "Stripe"],
         features: [
             "Product catalog with search and filters",
@@ -100,11 +102,11 @@ export const projects = [
             "Payment gateway integration",
             "Admin dashboard for inventory management"
         ],
-        thumbnail: "/projects/ecommerce.jpg",
-        githubLink: "https://github.com/yourusername/ecommerce",
-        liveLink: "https://demo.example.com",
+        thumbnail: CE,
+        githubLink: "https://github.com/cza786/React_js_Projects/tree/main/Currency_Converter",
+        liveLink: "https://vercel.com/chand-zaibs-projects/currencyconvertor",
         mediaGallery: [
-            { type: "image", url: "/media/ecommerce-1.jpg", caption: "Homepage" },
+            { type: "image", url: "CE", caption: "Homepage" },
             { type: "image", url: "/media/ecommerce-2.jpg", caption: "Product Page" }
         ]
     }
