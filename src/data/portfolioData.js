@@ -1,7 +1,27 @@
 import profileImg from '../assets/DP.jpg';
 import cv from '../assets/Chand_Zaib.pdf';
-import sc from '../assets/secure.jfif';
-import CE from '../assets/Currency_Exchanger.jpeg'
+import sc from '../assets/secure_gallery/secure.jfif';
+import CE from '../assets/currency_exchanger/Currency_Exchanger.jpeg'
+
+import sv from '../assets/secure_gallery/vault.jpeg';
+import v from '../assets/secure_gallery/Data_at_cloud.jpeg';
+import ep from '../assets/secure_gallery/encryption_Process.jpeg';
+import ei from '../assets/secure_gallery/encrypted_vault.jpeg';
+import dd from '../assets/secure_gallery/Duplicate.jpeg';
+import dt from '../assets/secure_gallery/threshold.jpeg';
+import fr from '../assets/secure_gallery/face-recognition.jpeg';
+import au from '../assets/secure_gallery/Auth_cloud.jpeg';
+import all from '../assets/secure_gallery/All.jpeg';
+import fol from '../assets/secure_gallery/folders.jpeg';
+
+import add_Wallet from '../assets/expense_tracker/add_Wallet.jpeg';
+import profile from '../assets/expense_tracker/profile.jpeg';
+import edit_transaction from '../assets/expense_tracker/edit_trasaction.jpeg';
+import Total_Wallet from '../assets/expense_tracker/Total_Wallet.jpeg';
+import Wallets_list from '../assets/expense_tracker/Wallets_list.jpeg';
+import added from '../assets/expense_tracker/added.jpeg';
+
+
 export const personalInfo = {
     name: "Chand Zaib",
     role: "Bachlor's in Computer Science | Full-Stack Developer | Data Science Enthusiast",
@@ -85,8 +105,17 @@ export const projects = [
         liveLink: "",
         mediaGallery: [
             { type: "image", url: sc, caption: "Dashboard" },
-            { type: "image", url: "https://via.placeholder.com/800x600/0ea5e9/ffffff?text=Face+Recognition", caption: "Face Recognition" },
-            { type: "image", url: "https://via.placeholder.com/800x600/0ea5e9/ffffff?text=Security+Vault", caption: "Security Vault" }
+            { type: "image", url: fr, caption: "Face Recognition" },
+            { type: "image", url: sv, caption: "Security Vault" },
+            { type: "image", url: v, caption: "Cloud Vault" },
+            { type: "image", url: ep, caption: "Encryption Process" },
+            { type: "image", url: ei, caption: "Encrypted images" },
+            { type: "image", url: dd, caption: "Duplicate Detection" },
+            { type: "image", url: dt, caption: "Duplicate using threshold" },
+            { type: "image", url: au, caption: "Authentication of Cloud Vault" },
+            { type: "image", url: all, caption: "All Photos" },
+            { type: "image", url: fol, caption: "Folders" }
+
         ]
     },
     // Add more projects here following the same structure
@@ -97,20 +126,47 @@ export const projects = [
         description: "A currency exchanger website that allows users to exchange currencies.",
         technologies: ["React.js", "Tailwind CSS"],
         features: [
-            "Product catalog with search and filters",
-            "Shopping cart and checkout",
-            "Payment gateway integration",
-            "Admin dashboard for inventory management"
+            "Real-time currency exchange rates",
+            "User-friendly interface",
+            "Responsive design for all devices"
         ],
         thumbnail: CE,
         githubLink: "https://github.com/cza786/React_js_Projects/tree/main/Currency_Converter",
         liveLink: "https://vercel.com/chand-zaibs-projects/currencyconvertor",
         mediaGallery: [
             { type: "image", url: CE, caption: "Homepage" },
-            { type: "image", url: "https://via.placeholder.com/800x600/0ea5e9/ffffff?text=Admin+Dashboard", caption: "Admin Dashboard" }
+
+        ]
+    },
+
+    // Expense traker mobile app 
+    {
+        id: 3,
+        title: "Expense Traker",
+        category: "Mobile Apps",
+        description: "An expense traker mobile app that allows users to track their expenses.",
+        technologies: ["Flutter", "Firebase"],
+        features: [
+            "Real-time expense tracking",
+            "User-friendly interface",
+            "Responsive design for all devices"
+        ],
+        thumbnail: add_Wallet,
+        githubLink: "https://github.com/cza786/Expense_Tracker_App",
+
+        mediaGallery: [
+            { type: "image", url: add_Wallet, caption: "Homepage" },
+            { type: "image", url: profile, caption: "Profile" },
+            { type: "image", url: edit_transaction, caption: "Edit Trasaction" },
+            { type: "image", url: Total_Wallet, caption: "Total Wallet" },
+            { type: "image", url: Wallets_list, caption: "Wallets List" },
+            { type: "image", url: added, caption: "Added Successfully" }
         ]
     }
 ];
+
+
+// Expense traker mobile app 
 
 export const mediaCategories = [
     "All",
